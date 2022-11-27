@@ -1,0 +1,53 @@
+.cinemaHall {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.seat {
+    height: 30px;
+    width: 30px;
+    margin-right: 2px;
+    background-color: green;
+    display: inline-block;
+    cursor: pointer;
+}
+.seat-booked {
+    height: 30px;
+    width: 30px;
+    margin-right: 2px;
+    background-color: darkgrey;
+    display: inline-block;
+    cursor: not-allowed;
+}
+.seat-archive {
+    height: 30px;
+    width: 30px;
+    margin-right: 2px;
+    background-color: green;
+    display: inline-block;
+    cursor: not-allowed;
+}
+.seat-booked-archive {
+    height: 30px;
+    width: 30px;
+    margin-right: 2px;
+    background-color: darkgrey;
+    display: inline-block;
+    cursor: not-allowed;
+}
+.passageBetween {
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+.bay {
+    background-color: red;
+}
+.result {
+    font-size: 10px;
+    display: inline-block;
+    width: 90px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-right: 5px;
+}
